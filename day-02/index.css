@@ -7,41 +7,33 @@ main{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    /* justify-content: space-between; */
+    justify-content: space-around;
 }
 
-main .__first_half{
-    border: 1px solid gray;
-    width: 50%;
-    height: 80vh;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 10px;
-}
-
+main .__first_half,
 main .__second_half{
     border: 1px solid gray;
-    width: 50vw;
     display: flex;
+    width: 48%;
     justify-content: start;
     align-items: center;
     padding: 10px;
+    height: 80vh;
 }
 
-main .__second_half p{
-    font-size: 25px;
+main .__second_half article {
+    font-size: 20px;
 }
-
 
 #btn1{
     border-radius: 4px;
     background-color: transparent;
     height: 40px;
     width: 150px;
-
     border: 1px solid lightgray;
-
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 
 #btn1:hover{
