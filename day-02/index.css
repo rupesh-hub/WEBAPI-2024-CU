@@ -11,7 +11,6 @@ main {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: lightgray;
 }
 
 main .__first_half,
