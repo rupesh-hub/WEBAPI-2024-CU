@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    /* justify-content: space-between; */
+}
+
+main .__first_half{
+    border: 1px solid gray;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+
+main .__second_half{
+    border: 1px solid gray;
+    width: 50vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+
+main .__second_half p{
+    font-size: 25px;
+}
+
+
+#btn1{
+    border-radius: 4px;
+    background-color: transparent;
+    height: 40px;
+    width: 150px;
+
+    border: 1px solid lightgray;
+
+}
+
+#btn1:hover{
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+}
+
+
