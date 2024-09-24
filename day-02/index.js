@@ -1,10 +1,8 @@
-var text  = "This is new text";
+var text = "This is new text";
 
-function changeText(){
-    let article = document.getElementById('article');
-    let temp = article.textContent;
-    article.textContent = text;
-    text = temp;
-    
+function changeText() {
+  let article = document.getElementById("article");
+  let temp = article.textContent;
+  article.textContent = text;
+  text = temp;
 }
-
