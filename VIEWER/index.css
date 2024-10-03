@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .__first_half,
+main .__second_half {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 48%;
+  height: 80vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+
+main .__second_half article {
+  font-size: 20px;
+}
+
+#btn1 {
+  border-radius: 4px;
+  background-color: transparent;
+  height: 40px;
+  width: 150px;
+  border: 1px solid lightgray;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+#btn1:hover {
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+}
